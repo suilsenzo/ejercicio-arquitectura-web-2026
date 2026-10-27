@@ -1,0 +1,126 @@
+
+body {
+    font-family: Sono;
+    background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Slabo 13px";
+    font-weight: 500;
+}
+
+#contenedor {
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+
+#cabecera {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+#menu {
+    float: left;
+    width: 200px;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 15px;
+    min-height: 400px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding-left: 0;      
+    margin: 0;              
+}
+#menu li {
+    margin-bottom: 10px;
+}
+
+
+#contenido {
+    float: left;
+    width: 640px;        
+    padding: 0;
+}
+
+section {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+#pie {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+.contenedor-perfil {
+    display: flex;   
+    align-items: center; 
+    gap: 15px;              
+}
+
+
+.imagen-redonda {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+
+.img-galeria {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.tarjeta-img {
+    float: left;
+    width: 31%;           
+    margin-right: 3.3%; 
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.tarjeta-img:last-child {
+    margin-right: 0; 
+}
+
+.tarjeta-img img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.tarjeta-img figcaption {
+    font-size: 13px;
+    color: #cccccc;
+    margin-top: 6px;
+}
