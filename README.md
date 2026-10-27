@@ -1,0 +1,1 @@
+# ejercicio-arquitectura-web-2026
